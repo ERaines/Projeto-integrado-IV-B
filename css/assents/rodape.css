@@ -5,4 +5,8 @@
 
     padding: 0.25rem;
     color: white;
+
+    position: fixed;
+    Width: 100%;
+    bottom: 0;  
 }
