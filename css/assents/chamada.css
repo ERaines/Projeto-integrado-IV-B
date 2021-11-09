@@ -1,39 +1,39 @@
 
 
-.main__box {
+.entrada {
     box-sizing: border-box;
     width: calc (100vw - 12%);
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 
-.main__logo {
-    width: 90vw;
+.entrada__logo {
+    width: 60vw;
     margin: 1rem;
 }
 
-.main__chamada {
+.entrada__titulo {
     text-align: center;
     font-weight: bold;
     font-size: 1.7rem;
     text-transform: uppercase;
 
     padding: 1rem;
-    margin: 3rem 1rem 0rem 1rem;
+    margin: 1.5rem 1rem 1.5rem 1rem;
 }
 
-.main__seletor-cidades {
+.entrada__seletor-cidades {
     font-size: 1.3rem;
 }
 
-.main__botao--pesquisar {
+.entrada__botao-pesquisar {
     width: 50vw;
     padding: 10px 0;
-    margin: 2rem 0.5rem;
-    background: green;
+    margin: 2rem 0.5rem 7rem 0.5rem;
+    background: red;
     color: white;
     font-weight:bold;
     font-size: 1rem;
@@ -44,6 +44,6 @@
 }
 
 .main__botao--pesquisar:active {
-    background: blue;
+    background: darkred;
 }
 
