@@ -20,6 +20,12 @@
     transition: 0.5s all;
 }
 
+.maisInformacoes__grafico {
+    width: 80%;
+    margin: 1rem auto;
+    
+}
+
 .maisInformacoes__texto-cidade {
     width: 80vw;
     text-align: center;
@@ -31,5 +37,6 @@
 
 
 @media screen and (min-width: 1024px){
+
     
 }

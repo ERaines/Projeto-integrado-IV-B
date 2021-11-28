@@ -61,6 +61,15 @@
     margin: 2rem auto;
 }
 
+.resultado__grafico {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.maisInformacoes__grafico--extra {
+    display: none;
+}
+
 .resultado__botao-MaisInformacoes {
     width: 60vw;
     padding: 10px 0;
@@ -76,6 +85,14 @@
 }
 
 @media screen and (min-width: 1024px) {
+
+
+    .maisInformacoes__grafico--extra {
+        display:flex;
+        width: 90%;
+        margin: 1rem auto;
+    }
+
     .resultado__seletor-cidades {
         width: 50vw;
         margin: 0 auto;
